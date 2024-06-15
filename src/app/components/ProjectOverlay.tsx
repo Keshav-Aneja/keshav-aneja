@@ -43,7 +43,7 @@ const ProjectOverlay: React.FC<ProjectProps> = ({
         <div
           className={`main-project-content w-full h-full   p-2 md:p-8 ${
             projectOpen ? "opacity-100" : "opacity-0"
-          } transition-all duration-500 delay-500 ease z-[300] flex flex-col items-center`}
+          } transition-all duration-500 delay-500 ease z-[300] flex flex-col items-center `}
         >
           <div
             className={`content w-full h-[50vh] flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between ${

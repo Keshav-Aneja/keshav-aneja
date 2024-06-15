@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import ProjectTable from "../components/ProjectTable";
 import ProjectOverlay from "../components/ProjectOverlay";
 import ProjectPopup from "../components/ProjectPopup";
-import ProjectCard from "../components/ProjectCard copy";
+import ProjectCard from "../components/ProjectCard";
 import BackgroundProps from "../components/BackgroundProps";
 import { useState, useRef } from "react";
 import Image from "next/image";
@@ -30,13 +30,13 @@ export default function Project() {
           className={`project-content  transition-all duration-[750ms] ease-inc  ${
             menuOpen
               ? "translate-y-[-50%] scale-[95%]  blur-sm pointer-events-none"
-              : "-translate-y-16 md:translate-y-0 scale-100 blur-0 pointer-events-auto"
-          } w-[90%] h-[80%] md:h-[100%]`}
+              : " md:translate-y-0 scale-100 blur-0 pointer-events-auto"
+          } w-[100%] h-[100%] md:h-[100%] p-4`}
         >
-          <div className=" heading text-secondary text-[max(5vw,3rem)] font-coolvetica tracking-wider">
+          {/* <div className=" heading text-secondary text-[max(5vw,3rem)] font-coolvetica tracking-wider">
             Projects
-          </div>
-          <div className="line bg-primary w-[70%] h-[2px] mb-6"></div>
+          </div> */}
+          {/* <div className="line bg-primary w-[70%] h-[2px] mb-6"></div> */}
           <ProjectTable
             setProjectOpen={setProjectOpen}
             setOpenProjectId={setOpenProjectId}

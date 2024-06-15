@@ -15,8 +15,9 @@ const ProjectCard: React.FC<CardProp> = ({
   setOpenProjectId,
 }) => {
   return (
+    // w-[100%] md:w-[50%] lg:w-[30%]
     <motion.div
-      className="group w-[90%] md:w-[50%] lg:w-[30%] border-[0px] border-tertiary aspect-square flex flex-col justify-between gap-4 p-4 rounded-xl hover:border-primary transition-all duration-300 ease-in-out] scale-90"
+      className="group  border-[0px] grid-cols-1 border-tertiary aspect-square flex flex-col  gap-6 p-4 rounded-xl hover:border-primary transition-all duration-300 ease-in-out] scale-90"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
@@ -36,7 +37,7 @@ const ProjectCard: React.FC<CardProp> = ({
         </div>
       </div>
       <div
-        className="remove-def view-btn border-2 border-tertiary rounded-xl text-center py-4 hover:bg-secondary  hover:border-secondary uppercase cursor-pointer group-hover:border-primary  hover:text-white transition-all duration-300 ease-in-out"
+        className="remove-def view-btn border-2 border-tertiary rounded-xl text-center py-4 hover:bg-secondary  hover:border-secondary uppercase cursor-pointer group-hover:border-primary  hover:text-white transition-all duration-300 ease-in-out text-sm md:text-base"
         onClick={() => {
           setProjectOpen(true);
           setOpenProjectId(id);

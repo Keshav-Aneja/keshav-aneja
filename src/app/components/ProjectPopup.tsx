@@ -9,6 +9,7 @@ import data from "../Project/Project.json";
 import ButtonOutline from "../components/ButtonOutline";
 import Link from "next/link";
 import { motion, useScroll, useSpring } from "framer-motion";
+import GalleryBox from "./GalleryBox";
 interface ProjectProps {
   children?: any;
   projectOpen: boolean;
@@ -45,7 +46,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
         ></ImageBanner>
         <div className="Header-wrapper w-[100%] h-[50vh] mt-8">
           <div className="head-content w-full flex flex-col lg:flex-row justify-between gap-4">
-            <div className="backBtn w-[100%] lg:w-[20%] scale-75 md:scale-100">
+            <div className="backBtn w-[100%] lg:w-[20%] scale-75 md:scale-100 -my-6 md:my-0">
               <BackButton setProjectOpen={setProjectOpen} />
             </div>
             <div className="description w-[100%]  lg:w-[50%]">
@@ -88,7 +89,11 @@ const ProjectPopup: React.FC<ProjectProps> = ({
             />
           </div>
         </div>
-        {openData?.imgBanners.map((img, i) => (
+        <GalleryBox
+          images={openData ? openData.imgBanners : ["a.jpg"]}
+          title={openData?.title || "forkthis"}
+        />
+        {/* {openData?.imgBanners.map((img, i) => (
           <div key={i}>
             <div className="white w-[100%]  mb-6 flex justify-center items-center">
               <div className="text text-black font-coolvetica text-4xl">
@@ -102,7 +107,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
               </div>
             </div>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

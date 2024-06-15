@@ -6,7 +6,7 @@ const BackButton: React.FC<BackBtnProp> = ({ setProjectOpen }) => {
   return (
     <>
       <div
-        className="remove-def text-white text-5xl flex flex-col justify-center items-center scale-90 hover:scale-100 transition-all duration-300 ease active:scale-75 cursor-pointer"
+        className="remove-def text-white text-3xl flex flex-col justify-center items-center scale-90 hover:scale-95 transition-all duration-300 ease active:scale-80 cursor-pointer"
         onClick={() => {
           setProjectOpen(false);
         }}
@@ -19,7 +19,7 @@ const BackButton: React.FC<BackBtnProp> = ({ setProjectOpen }) => {
           width={120}
           height={120}
           alt="arrow"
-          className="rotate-180 scale-y-75"
+          className="rotate-180 scale-y-75 "
         />
       </div>
     </>

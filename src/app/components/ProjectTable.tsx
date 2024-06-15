@@ -34,7 +34,7 @@ const ProjectTable: React.FC<ProjectProps> = ({
       ? ProjectData
       : ProjectData.filter((project) => project.tech.includes(filter));
   return (
-    <div className="w-full h-[100%] md:h-[80%] border-2 border-tertiary rounded-3xl overflow-y-hidden">
+    <div className="w-full h-[100%] md:h-[100%] border-2 border-tertiary rounded-3xl overflow-y-hidden">
       <div className="ButtonMenu w-full flex gap-2 p-4 flex-wrap justify-center md:justify-start">
         {TechMenu.map((skill, i) => (
           <ButtonPrime
@@ -47,9 +47,9 @@ const ProjectTable: React.FC<ProjectProps> = ({
           </ButtonPrime>
         ))}
       </div>
-
+      {/* flex justify-center md:justify-start flex-wrap items-start */}
       <div className="line bg-tertiary w-[100%] h-[2px] md:mb-6"></div>
-      <div className="Project-Display w-full h-[80%] overflow-y-scroll overflow-x-hidden p-0 md:p-4 flex justify-center md:justify-between flex-wrap items-start z-[10]">
+      <div className="Project-Display w-full h-[80%] overflow-y-scroll overflow-x-hidden p-0 md:p-4  z-[10] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {filteredProjects.length === 0 ? (
           <div className="text-5xl text-primary font-coolvetica text-center w-full tracking-wider">
             No Projects Found
