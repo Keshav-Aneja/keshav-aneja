@@ -88,7 +88,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
         }`}
       >
         <Link
-          href="/Landing"
+          href="/"
           className="card w-[30%] md:w-[23%] h-32 md:h-60  overflow-hidden remove-def"
         >
           <div className="group card-inner w-full h-full border-2 md:border-4 border-secondary/40 bg-secondary/30 md:bg-transparent hover:bg-secondary  rounded-tl-[50px] md:rounded-tl-[100px] rounded-br-[50px] md:rounded-br-[100px] flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest transition-all duration-300 hover:bg-opacity-50">
@@ -96,7 +96,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
           </div>
         </Link>
         <Link
-          href="/Project"
+          href="/project"
           className="card w-[34%] md:w-[23%] h-32 md:h-60  overflow-hidden remove-def"
         >
           <div className="card-inner w-full h-full border-2 md:border-4 border-secondary/40 bg-secondary/30 md:bg-transparent hover:bg-secondary rounded-[50px] md:rounded-[100px]  flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest  transition-all duration-300  hover:bg-opacity-50">
@@ -104,7 +104,7 @@ const Menu: React.FC<menuDetail> = ({ isOpen }) => {
           </div>
         </Link>
         <Link
-          href="/About"
+          href="/about"
           className="card w-[30%] md:w-[23%] h-32 md:h-60  overflow-hidden remove-def"
         >
           <div className="card-inner w-full h-full border-2 md:border-4 border-secondary/40 bg-secondary/30 md:bg-transparent hover:bg-secondary rounded-tr-[50px] md:rounded-tr-[100px] rounded-bl-[50px] md:rounded-bl-[100px] flex justify-center items-center text-white text-base md:text-3xl font-monsterrat font-semibold tracking-widest  transition-all duration-300  hover:bg-opacity-50">
