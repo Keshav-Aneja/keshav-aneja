@@ -2,9 +2,8 @@
 import { useState } from "react";
 import ButtonPrime from "../components/ButtonPrime";
 import ProjectCard from "../components/ProjectCard";
-import TechMenu from "../Project/Tech.json";
-import ProjectData from "../Project/Project.json";
-
+import TechMenu from "../project/Tech.json";
+import { ProjectData } from "../project/Project";
 interface ProjectProps {
   setProjectOpen: any;
   setOpenProjectId: any;

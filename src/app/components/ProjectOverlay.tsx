@@ -5,7 +5,7 @@ import ButtonTech from "./ButtonTech";
 import Image from "next/image";
 import Curtains from "./Curtains";
 import BackButton from "./BackButton";
-import data from "../Project/Project.json";
+import data from "../project/Project";
 
 interface ProjectProps {
   children?: any;

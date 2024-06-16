@@ -5,7 +5,7 @@ import ButtonTech from "./ButtonTech";
 import Image from "next/image";
 import Curtains from "./Curtains";
 import BackButton from "./BackButton";
-import data from "../Project/Project.json";
+import { ProjectData } from "../project/Project";
 import ButtonOutline from "../components/ButtonOutline";
 import Link from "next/link";
 import { motion, useScroll, useSpring } from "framer-motion";
@@ -22,7 +22,7 @@ const ProjectPopup: React.FC<ProjectProps> = ({
   setProjectOpen,
   openProjectId,
 }) => {
-  const openData = data.find((prodata) => prodata.id === openProjectId);
+  const openData = ProjectData.find((prodata) => prodata.id === openProjectId);
 
   return (
     <div
