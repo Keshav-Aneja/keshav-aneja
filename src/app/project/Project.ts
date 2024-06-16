@@ -83,7 +83,7 @@ export const ProjectData = [
       "b.jpg",
       "c.jpg",
       "d.jpg",
-      "e.png",
+      "e.jpg",
       "f.png",
       "g.png",
       "h.png",

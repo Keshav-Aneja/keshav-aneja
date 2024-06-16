@@ -6,7 +6,7 @@ import ProgressCircular from "./ProgressCircular";
 import ButtonPrime from "./ButtonPrime";
 import SkillButton from "./SkillButton";
 import ExperienceCard from "./ExperienceCard";
-import data from "../About/SkillPage.json";
+import data from "../about/SkillPage.json";
 import Image from "next/image";
 export default function AboutDetails() {
   return (
@@ -112,7 +112,7 @@ export default function AboutDetails() {
             position={"Technical Head"}
             company={"Mozilla Firefox Club"}
             role={
-              "Implementing responsive design techniques to create a consistent user experience on both desktop and mobile devices. Optimising the performance of the front-end code for faster loading times and improved user experience. Collaborating with back-end developers to integrate front-end code with server-side logic."
+              "As the Technical Head of the Mozilla Firefox Club at my college, I oversee all technical aspects of the club and lead junior members in tech-related activities. I have contributed to over five major projects used by more than 3,000 students. Additionally, I have conducted over five workshops on web development, teaching and mentoring over 500 students during my second year."
             }
             tech={[
               "Tailwind CSS",
