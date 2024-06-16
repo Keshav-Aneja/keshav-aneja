@@ -15,6 +15,11 @@
     "color": "#da7b56"
   },
   {
+    "skill": "Typescript",
+    "img": "typescript.webp",
+    "color": "#da7b56"
+  },
+  {
     "skill": "Tailwind CSS",
     "img": "tailwind.png",
     "color": "#da7b56"

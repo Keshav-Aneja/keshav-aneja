@@ -39,7 +39,12 @@ export default function AboutDetails() {
             fulfilling for me.
             <br />
             <br />
-            <ButtonOutline>Resume</ButtonOutline>
+            <a
+              href="https://drive.google.com/file/d/1ZzM_-iedEB9PoXdonHklzZ-yNg4TqGVZ/view?usp=drive_link"
+              target="_blank"
+            >
+              <ButtonOutline>Resume</ButtonOutline>
+            </a>
           </div>
 
           <Image
@@ -78,7 +83,7 @@ export default function AboutDetails() {
             position={"Research Intern"}
             company={"IIT Jodhpur"}
             role={
-              "Implementing responsive design techniques to create a consistent user experience on both desktop and mobile devices. Optimising the performance of the front-end code for faster loading times and improved user experience. Collaborating with back-end developers to integrate front-end code with server-side logic."
+              "Conducted research on the latest advancements in 3D Computer Vision, focusing on innovative techniques. Implemented COLMAP and Neural Surface Reconstruction on Nvidia DGX servers, successfully creating hyper-realistic 3D models from image sets while preserving intricate geometry. This work significantly advances the fidelity and accuracy of 3D model generation."
             }
             tech={[
               "NEXT.JS",
@@ -94,7 +99,7 @@ export default function AboutDetails() {
             position={"Founding Web Engineer"}
             company={"AuraX"}
             role={
-              "Implementing responsive design techniques to create a consistent user experience on both desktop and mobile devices. Optimising the performance of the front-end code for faster loading times and improved user experience. Collaborating with back-end developers to integrate front-end code with server-side logic."
+              "Developed a cutting-edge SaaS application that enables seamless 3D and AR integration for websites. Built with Next.js, TypeScript, and Tailwind CSS, the platform offers robust 3D model viewers and WebXR functionality, enhancing user experiences with immersive, interactive content. This solution empowers businesses to easily embed advanced 3D and AR capabilities into their digital platforms."
             }
             tech={[
               "ReactJS",
