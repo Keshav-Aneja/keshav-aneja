@@ -27,7 +27,7 @@ const ProjectTable: React.FC<ProjectProps> = ({
   } else if (selected === 4) {
     filter = "javascript";
   } else if (selected === 5) {
-    filter = "remotion";
+    filter = "c++";
   }
   const filteredProjects =
     filter === ""

@@ -69,12 +69,16 @@ const ProjectPopup: React.FC<ProjectProps> = ({
             </div>
           </div>
           <div className="button-container w-[100%] md:w-[50%] flex m-auto justify-center gap-8 mt-8 mb-8 md:mb-0">
-            <Link href={openData ? openData.gitlink : ""}>
-              <ButtonOutline arrowdir="right">Github</ButtonOutline>
-            </Link>
-            <Link href={openData ? openData.demolink : ""}>
-              <ButtonOutline arrowdir="right">Demo</ButtonOutline>
-            </Link>
+            {openData && openData?.gitlink.length > 0 && (
+              <Link href={openData ? openData.gitlink : ""}>
+                <ButtonOutline arrowdir="right">Github</ButtonOutline>
+              </Link>
+            )}
+            {openData && openData?.demolink.length > 0 && (
+              <Link href={openData ? openData.demolink : ""}>
+                <ButtonOutline arrowdir="right">Demo</ButtonOutline>
+              </Link>
+            )}
           </div>
           <div className="scroll-down md:flex justify-center scale-50 items-center mt-4 hidden ">
             <div className="text-arrow  text-2xl text-tertiary font-medium">

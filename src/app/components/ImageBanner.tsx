@@ -21,7 +21,7 @@ const ImageBanner: React.FC<BannerProp> = ({ projectOpen, title, img }) => {
             projectOpen
               ? "translate-y-0 "
               : "lg:-translate-y-[40vh] -translate-y-[20vh] "
-          } transition-all duration-[600ms] delay-500`}
+          } transition-all duration-[600ms] delay-700`}
           style={{ textShadow: "0px 0px 15px rgba(0,0,0,0.4)" }}
         >
           {title}
@@ -29,7 +29,7 @@ const ImageBanner: React.FC<BannerProp> = ({ projectOpen, title, img }) => {
         <div
           className={`md:hidden text-white heading-text w-full h-full flex justify-center items-center text-[3rem]  absolute z-[400] font-coolvetica tracking-wider text-transparent ${
             projectOpen ? "translate-y-0 " : "-translate-y-[400px] "
-          } transition-all duration-[600ms] delay-500`}
+          } transition-all duration-[600ms] delay-700`}
           style={{ textShadow: "0px 0px 15px rgba(0,0,0,0.4)" }}
         >
           {title}
@@ -58,11 +58,11 @@ const ImageBanner: React.FC<BannerProp> = ({ projectOpen, title, img }) => {
             <div className="bubble x10"></div>
           </div>
         </div>
-        <div
+        {/* <div
           className={`overlay absolute  w-[100%] h-[200%] -top-[-100%] bg-black transition-all duration-1000 delay-[1000ms] ease-linear ${
             projectOpen ? "-top-[200%]" : "top-[0]"
           }`}
-        ></div>
+        ></div> */}
       </div>
     </>
   );

@@ -16,6 +16,11 @@ const colors: Record<string, string> = {
   selenium: "#eeff91",
   sockets: "#90EE90",
   networking: "#8B8099",
+  threejs: "#da7b56",
+  typescript: "#0f6ff0",
+  webxr: "red",
+  "c++": "#eeff91",
+  sfml: "white",
 };
 const ButtonTech: React.FC<BtnProp> = ({ text }) => {
   // Use a function in find to compare the 'text' property of each object
