@@ -25,11 +25,11 @@ export default function AboutDetails() {
               height={700}
               className="lg:hidden w-[40%] h-auto rounded-[10px] rounded-bl-[50px] float-right ml-2 md:ml-4"
             />
-            Hello, I&apos;m Keshav Aneja, a second-year computer science student
+            Hello, I&apos;m Keshav Aneja, a second year computer science student
             at Vellore Institute of Technology, deeply immersed in the world of
             full-stack web development. My journey began with exploring the
             captivating realm of frontend development, where I delved into
-            technologies like React and Next.j s, crafting innovative projects
+            technologies like React and NextJS, crafting innovative projects
             along the way. My current focus is on mastering the backend, with
             the goal of creating full-stack applications that cater to a wide
             audience. Coding and graphic design serve as my creative outlets,
