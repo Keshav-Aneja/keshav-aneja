@@ -1,4 +1,4 @@
-export const ProjectData = [
+const ProjectData = [
   {
     id: 1,
     title: "AuraX",
@@ -190,3 +190,4 @@ export const ProjectData = [
     demolink: "https://keshav-aneja.github.io/SpaceGame/",
   },
 ];
+export default ProjectData;

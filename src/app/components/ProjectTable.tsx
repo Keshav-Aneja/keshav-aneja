@@ -3,7 +3,7 @@ import { useState } from "react";
 import ButtonPrime from "../components/ButtonPrime";
 import ProjectCard from "../components/ProjectCard";
 import TechMenu from "../project/Tech.json";
-import { ProjectData } from "../project/Project";
+import ProjectData from "../project/Project";
 interface ProjectProps {
   setProjectOpen: any;
   setOpenProjectId: any;
