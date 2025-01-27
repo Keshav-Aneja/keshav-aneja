@@ -24,6 +24,8 @@
 
 [![](https://visitcount.itsvg.in/api?id=Keshav-Aneja&icon=6&color=0)](https://visitcount.itsvg.in)
 
-<iframe src="https://keshavaneja.in" width="100%" height="300px"></iframe>
+<div style="display:flex; width: 100%; height: 100vh; position:relative;background: linear-gradient(135deg, #ff9a9e, #fad0c4); ">
+    <div style="width:5rem; height:5rem; background:white; border: 2px solid black; border-radius: 1rem;box-shadow: 2px 2px 10px rgba(0,0,0,0.2);"></div><div style="width:5rem; height:5rem; background:white; border: 2px solid black; border-radius: 1rem"></div>
+</div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
