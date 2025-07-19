@@ -1,10 +1,10 @@
-# 💫 About Me:
+## 👋 Hey there, I'm Keshav Aneja
 
-🔭 I’m currently working on [Kustom](https://kustom.cc)<br>👯 I’m looking to collaborate on Web Development & Computer Vision Projects<br>🤝 I’m looking for help with 3D Computer Vision
+I'm a passionate **Full Stack Developer** and **3D Computer Vision Enthusiast**, building tools that blend clean design with advanced tech.
 
-## 🌐 Socials:
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/k.aneja09) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/keshav-aneja) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Keshav__Aneja)
+🚀 **Currently Building:**  
+[**Kustom**](https://kustom.cc) – A dynamic, Canva-style platform for building custom forms, landing pages, and ads
+→ Supports AI-powered content suggestions, detailed form analytics, and full visual customization
 
 # 💻 Tech Stack:
 
